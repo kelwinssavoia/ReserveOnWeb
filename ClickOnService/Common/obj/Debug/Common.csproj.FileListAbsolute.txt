@@ -1,0 +1,4 @@
+C:\Users\kelwin.savoia\Documents\Visual Studio 2012\Projects\ClickOnService\Common\bin\Debug\Common.dll
+C:\Users\kelwin.savoia\Documents\Visual Studio 2012\Projects\ClickOnService\Common\bin\Debug\Common.pdb
+C:\Users\kelwin.savoia\Documents\Visual Studio 2012\Projects\ClickOnService\Common\obj\Debug\Common.dll
+C:\Users\kelwin.savoia\Documents\Visual Studio 2012\Projects\ClickOnService\Common\obj\Debug\Common.pdb

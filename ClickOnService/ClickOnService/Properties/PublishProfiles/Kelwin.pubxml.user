@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit http://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <LastUsedBuildConfiguration>Release</LastUsedBuildConfiguration>
+    <LastUsedPlatform>Any CPU</LastUsedPlatform>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="bin/Business.dll">
+      <publishTime>10/25/2014 00:04:31</publishTime>
+    </File>
+    <File Include="bin/ClickOnService.dll">
+      <publishTime>10/25/2014 11:51:11</publishTime>
+    </File>
+    <File Include="bin/Common.dll">
+      <publishTime>10/25/2014 00:04:25</publishTime>
+    </File>
+    <File Include="bin/Data.dll">
+      <publishTime>10/25/2014 00:04:28</publishTime>
+    </File>
+    <File Include="bin/Entities.dll">
+      <publishTime>10/25/2014 00:04:25</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Practices.EnterpriseLibrary.Common.dll">
+      <publishTime>04/16/2010 14:16:58</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Practices.EnterpriseLibrary.Data.dll">
+      <publishTime>04/16/2010 14:16:58</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Practices.ServiceLocation.dll">
+      <publishTime>04/16/2010 14:16:58</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Practices.Unity.dll">
+      <publishTime>04/16/2010 13:42:32</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Practices.Unity.Interception.dll">
+      <publishTime>04/16/2010 13:42:32</publishTime>
+    </File>
+    <File Include="Service1.svc">
+      <publishTime>08/30/2014 22:52:17</publishTime>
+    </File>
+    <File Include="Web.config">
+      <publishTime>10/25/2014 23:24:55</publishTime>
+    </File>
+  </ItemGroup>
+</Project>
