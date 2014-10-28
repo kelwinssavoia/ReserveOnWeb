@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://schemas.datacontract.org/2004/07/Entities" elementFormDefault="qualified" targetNamespace="http://schemas.datacontract.org/2004/07/Entities" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:complexType name="PessoaEntity">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="EnderecoEmail" nillable="true" type="xs:string" />
+      <xs:element name="Id" type="xs:int" />
+      <xs:element minOccurs="0" name="Nome" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="NumeroCpf" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="NumeroRg" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="NumeroTelefone" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Usuario" nillable="true" type="tns:UsuarioEntity" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="PessoaEntity" nillable="true" type="tns:PessoaEntity" />
+  <xs:complexType name="UsuarioEntity">
+    <xs:sequence>
+      <xs:element name="Id" type="xs:int" />
+      <xs:element minOccurs="0" name="Login" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Perfil" nillable="true" type="tns:PerfilEntity" />
+      <xs:element minOccurs="0" name="Senha" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="UsuarioEntity" nillable="true" type="tns:UsuarioEntity" />
+  <xs:complexType name="PerfilEntity">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="Descricao" nillable="true" type="xs:string" />
+      <xs:element name="Id" type="xs:int" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="PerfilEntity" nillable="true" type="tns:PerfilEntity" />
+  <xs:complexType name="MesaEntity">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="DescricaoLocalizacao" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Id" type="xs:int" />
+      <xs:element minOccurs="0" name="QrCode" type="xs:int" />
+      <xs:element minOccurs="0" name="QuantidadeLugares" type="xs:int" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="MesaEntity" nillable="true" type="tns:MesaEntity" />
+  <xs:complexType name="ReservaEntity">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="CodigoCheckin" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="CodigoReserva" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="DataReservaFim" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="DataReservaInicio" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="FlagAtiva" type="xs:boolean" />
+      <xs:element minOccurs="0" name="FlagCheckin" type="xs:boolean" />
+      <xs:element minOccurs="0" name="Id" type="xs:int" />
+      <xs:element minOccurs="0" name="Mesa" nillable="true" type="tns:MesaEntity" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ReservaEntity" nillable="true" type="tns:ReservaEntity" />
+</xs:schema>

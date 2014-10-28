@@ -1,0 +1,6 @@
+C:\Users\kelwin.savoia\Documents\Visual Studio 2012\Projects\ReserveOnWeb\ReserveOnWeb\bin\ReserveOnWeb.dll
+C:\Users\kelwin.savoia\Documents\Visual Studio 2012\Projects\ReserveOnWeb\ReserveOnWeb\bin\ReserveOnWeb.XmlSerializers.dll
+C:\Users\kelwin.savoia\Documents\Visual Studio 2012\Projects\ReserveOnWeb\ReserveOnWeb\bin\ReserveOnWeb.pdb
+C:\Users\kelwin.savoia\Documents\Visual Studio 2012\Projects\ReserveOnWeb\ReserveOnWeb\obj\Release\ReserveOnWeb.dll
+C:\Users\kelwin.savoia\Documents\Visual Studio 2012\Projects\ReserveOnWeb\ReserveOnWeb\obj\Release\ReserveOnWeb.pdb
+C:\Users\kelwin.savoia\Documents\Visual Studio 2012\Projects\ReserveOnWeb\ReserveOnWeb\obj\Release\ReserveOnWeb.XmlSerializers.dll

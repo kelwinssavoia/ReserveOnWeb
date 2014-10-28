@@ -1,0 +1,5 @@
+C:\Users\kelwin.savoia\Documents\Visual Studio 2012\Projects\ReserveOnWeb\ReserveOnWeb\bin\ReserveOnWeb.dll
+C:\Users\kelwin.savoia\Documents\Visual Studio 2012\Projects\ReserveOnWeb\ReserveOnWeb\bin\ReserveOnWeb.pdb
+C:\Users\kelwin.savoia\Documents\Visual Studio 2012\Projects\ReserveOnWeb\ReserveOnWeb\obj\Debug\ReserveOnWeb.dll
+C:\Users\kelwin.savoia\Documents\Visual Studio 2012\Projects\ReserveOnWeb\ReserveOnWeb\obj\Debug\ReserveOnWeb.pdb
+C:\Users\kelwin.savoia\Documents\Visual Studio 2012\Projects\ReserveOnWeb\ReserveOnWeb\obj\Debug\ReserveOnWeb.csprojResolveAssemblyReference.cache
