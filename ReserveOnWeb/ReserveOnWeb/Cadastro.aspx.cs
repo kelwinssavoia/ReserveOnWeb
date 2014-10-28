@@ -84,6 +84,7 @@ namespace ReserveOnWeb
                 txtUsuario.BackColor = ColorTranslator.FromHtml("#FFFFCC");
                 txtUsuario.Focus();
                 Response.Write("<script>alert('Usuário já existente.');</script>");
+
                 UsuarioValido = false;
             }
             else
